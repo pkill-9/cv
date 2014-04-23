@@ -1,0 +1,163 @@
+\documentclass[a4paper]{article}
+
+\usepackage{textcomp}
+\usepackage{array}
+
+
+\title{Personal Resum\'e}
+\author{Matthew Signorini}
+
+\usepackage[pdftex,bookmarks,colorlinks]{hyperref}
+
+\begin{document}
+
+\maketitle
+
+\section{Personal Details}
+\begin{tabular}{>{\raggedright}m{3cm} l}
+    \textbf{Full Name} &Matthew Peter Signorini\\
+ \textbf{Address} &12 Winjallock Crescent, Vermont South 3133\\
+\textbf{Home Ph.} &(03) 9801 5013\\
+  \textbf{E-mail} &matthew.signorini@gmail.com\\
+\end{tabular}
+
+
+\section{Education}
+\begin{tabular}{>{\raggedright}m{3cm} l}
+    \textbf{1997 -- 1998} &Boronia West Primary School\\
+    \textbf{1998 -- 2003} &Vermont Primary School\\
+    \textbf{2004 -- 2009} &Vermont Secondary College\\
+           \textbf{ENTER} &91.05\\
+    \textbf{2010 -- 2013} &The University of Melbourne, \\
+                             &Bachelor of Science (Computer Science)\\
+    \textbf{2013 -- present} &The University of Melbourne, \\
+                             &Masters of Science (Computer Science)\\
+\end{tabular}
+
+\subsection{VCE Subjects}
+In 2008, when I was in year 11, I completed IT Applications, and achieved a 
+study score of 39. In year 12, I completed Chemistry, Maths Methods,
+Specialist Maths, Physics and English Language for my VCE, and achieved 
+study scores of 38, 37, 33, 34 and 26 respectively.
+
+
+\section{Previous Employment}
+\begin{description}
+    \item[2013 -- 2014] I worked for Ourcast during the summer break from
+        university as a server side software engineering intern. My role
+        included developing prototype machine learning algorithms to filter
+        out false positives from rain radar images, prototyped in GNU 
+        Octave. I also contributed to creating a program in Java to produce
+        rain predictions on a radar station by station basis, and also code
+        to measure the accuracy of the predictions. I found that my
+        experience with Linux was very useful in this job, particularly when
+        it came to using SSH and terminal commands, which I am well accustomed
+        to.
+    \item[2006 -- present] I am employed as the audio technician for Box
+        Hill Ballet Association's end of year concert. Initially, this 
+        involved a significant learning curve, as I had little experience 
+        in operating an audio desk when I first started. This also involves 
+        working as part of a team with the rest of the backstage crew, and
+        following instructions from the stage manager.
+    \item[2004 -- 2008] I Delivered daily newspapers for Vermont South
+        Newsagency. This required attendance at 6:00 am, and attention to
+        detail.
+    \item[2011 -- present] I also deliver pamphlets on a casual/contract
+        basis for Salmat.
+\end{description}
+
+\section{Summary of Skills}
+\begin{description}
+    \item[\LaTeX{}] I am experienced with using the \LaTeX{} typesetting
+        system, with which this document was prepared. I have also used
+        it to typeset a procedures manual for The Hub Caf\'e, where I
+        help out on a voluntary basis.
+    \item[Linux/UNIX] I have had Ubuntu Linux installed on my PC since
+        2008. As part of my course at university, I have also learnt to
+        use Unix (Solaris in this case), where we were taught to use an
+        SSH client, bash commands, and using the Vim editor. As a result,
+        I have extensive knowledge of Linux and Unix.
+    \item[Programming languages] I have had extensive experience writing
+        programs in C, with projects including a multithreaded POP3 email 
+        server, and a FAT32 file system driver. I have also done some
+        object oriented programming in Java, C\# and C++, and have found that
+        I can pick up new languages reasonably easily. I have also learnt
+        bash shell script, using it mainly for running tests on programs
+        written for university assessment tasks.
+        % TODO: this section needs to be updated to reflect knowledge of
+        % object oriented programming (more than just "some").
+    \item[Version control systems] I was taught to use Subversion as part
+        of my university course, and have also learned to use Mercurial,
+        which I use to track most of my personal projects. I have extensive
+        experience with both of these tools, including setting up
+        repositories, and checking in and out, both locally, and over a
+        network.
+    \item[Espresso Coffee] I have learnt to operate an espresso machine as
+        part of my voluntary work at The Hub Caf\'e, and have consistently
+        received positive feedback from customers about the coffee I make.
+        % TODO: add bicycle maintenance, building wheels.
+\end{description}
+
+\section{Voluntary Work}
+Boronia Church of Christ runs a caf\'e called ``The Hub'', where I have
+recently been helping out. As part of my work there I have learnt to
+operate an espresso machine, and have developed expertise at that task. I 
+also operate the data projector and audio desk on a roster for Sunday 
+morning church services (typically once or twice a month).
+
+I have also volunteered for the Melbourne Bicycle Touring Club (MBTC), of
+which I am a member. The club organises an anual event called the MAD ride
+(Melbourne Autumn Day ride) to raise funds, which I have helped out at. I
+also served on the club committee as Library and Equipment officer in the
+2010 -- 2011 financial year.
+
+While I was at primary school and high school I also helped out at
+numerous school working bees, mainly doing gardening work.
+
+At the start of 2012 I also began to help out in a leadership role at the
+youth group run by Boronia Church of Christ.
+
+
+\section{Hobbies and Interests}
+My hobbies include outdoor activities such as cross country skiing, cycling
+and camping. I have already mentioned my involvement with the MBTC, and I
+have been on numerous day rides and camping trips with the club. I have
+also organised and led rides.
+
+My academic interests include distributed systems and file systems. I am
+currently working on a FAT32 driver for Linux with the objective of
+eliminating file fragmentation by using a smarter allocation algorithm.
+For more information on that project, please refer to the project home
+page on Google Code\footnote{
+\href{http://code.google.com/p/emphatic-fs}{http://code.google.com/p/emphatic-fs}
+}.
+
+I am also interested in operating systems, especially microkernels, and I
+have been working on a boot loader for such systems. My aim is for the
+boot loader to be able to load multiple binary programs into memory, the
+kernel as well as other system programs needed in order for the OS to
+boot (eg. device drivers), and pass on information about what files
+have been loaded to the kernel. The files to be loaded would be specified 
+in a text based configuration file. This offers one solution to the problem 
+of microkernels needing to incorporate device drivers into the kernel mode 
+layer in order to load other OS components at boot time. Under this model, 
+the task of loading other OS components is outsourced to the boot loader.
+
+I also enjoy reading and going to the movies, and have learnt calligraphy.
+
+% TODO: adjust academic interests to include research project topic. Also
+% bring back electronics/arduino, including bike speedo project.
+
+
+\section{Referees}
+Bekkii Scott, youth minister at Boronia Church of Christ \\
+Ph. 0401 217 627\\ \\
+Amy Whitney, Manager of The Hub Caf\'e \\
+Ph. 0423 645 905\\ \\
+Written reference from Vermont South Newsagency.
+
+% Jan Turner?
+
+\end{document}
+
+% vim: ts=4 sw=4 et
